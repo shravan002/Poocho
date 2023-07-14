@@ -74,7 +74,8 @@
                 android:id="@+id/user_msg"
                 android:layout_width="match_parent"
                 android:layout_height="66dp"
-                android:hint="hint"
+                android:hint="यहाँ अपना सवाल पूछें"
+                android:background="@color/white"
                 android:textColor="@color/white"
                 android:textColorHint="@color/white" />
         </com.google.android.material.textfield.TextInputLayout>

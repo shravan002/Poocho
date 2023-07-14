@@ -34,7 +34,8 @@
             android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
             android:gravity="center"
-            android:text="ChatGPT is an artificial intelligence chatbot developed by OpenAI and launched on November 30, 2022."
+            android:text="यह एप्लिकेशन आपको मजेदार और अद्भुत चैटिंग का अनुभव प्रदान करेगा। अगर आप चाहें, तो इसका इस्तेमाल करके आप बातचीत कर सकते हैं और अपने सवालों के उत्तर प्राप्त कर सकते हैं।
+यह एप आपको मनचाहे फोटो बनाने की सुविधा प्रदान करता है।"
             android:textColor="@color/white"
             android:textSize="14sp"/>
 
@@ -69,7 +70,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="Chat with Bot"
+            android:text="रोबोट को पूछें"
             android:textColor="@color/white"
             android:textSize="14sp"/>
 
@@ -96,12 +97,24 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="Generate Image"
+                android:text="फोटो बनायें"
                 android:textColor="@color/white"
                 android:textSize="14sp"/>
 
         </LinearLayout>
 
     </LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:gravity ="center"
+        android:text="version 1.1"
+        android:textSize="8sp"/>
+    />
 
 </LinearLayout>

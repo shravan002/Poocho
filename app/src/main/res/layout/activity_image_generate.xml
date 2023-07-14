@@ -73,8 +73,9 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="hint"
+                android:hint="फोटो का विवरण करे"
                 android:id="@+id/user_msg"
+                android:background="@color/white"
                 android:textColor="@color/white"
                 android:textColorHint="@color/white" />
         </com.google.android.material.textfield.TextInputLayout>
